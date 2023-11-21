@@ -1,7 +1,7 @@
 {
   "name": "repo-finder",
-  "version": "1.0.4",
-  "description": "Gets repositories of a specific GitHub user",
+  "version": "1.0.5",
+  "description": "Gets repository list from a specified GitHub user, using the GitHub API",
   "main": "index.js",
   "keywords": [],
   "author": "Gjon Hajdari",
