@@ -1,6 +1,6 @@
 {
   "name": "repo-finder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gets repositories of a specific GitHub user",
   "main": "index.js",
   "keywords": [],
