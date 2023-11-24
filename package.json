@@ -1,6 +1,6 @@
 {
   "name": "repo-finder",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Gets repository list from a specified GitHub user, using the GitHub API",
   "main": "index.js",
   "keywords": [],
