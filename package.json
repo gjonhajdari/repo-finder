@@ -7,6 +7,6 @@
   "author": "Gjon Hajdari",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.2"
+    "node-fetch": "^2.7.0"
   }
 }
