@@ -1,6 +1,6 @@
 # repo-finder
 
-Gets repository list from a specified GitHub user, using the [GitHub API](https://docs.github.com/en/rest?apiVersion=2022-11-28).
+Gets user and repo info for a specified GitHub user, using the [GitHub API](https://docs.github.com/en/rest?apiVersion=2022-11-28).
 
 - User info is gotten from `https://api.github.com/users/USERNAME`
 - User repos are gotten from `https://api.github.com/users/USERNAME/repos`
