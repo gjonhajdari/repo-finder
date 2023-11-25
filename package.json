@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Gjon Hajdari",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gjonhajdari/repo-finder.git"
+  },
   "dependencies": {
     "axios": "^1.6.2"
   }
