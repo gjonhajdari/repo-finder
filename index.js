@@ -1,4 +1,5 @@
-const fetch = require("node-fetch");
+// const fetch = require("node-fetch");
+const axios = require("axios");
 
 async function fetchData(username, repos = false) {
   let url = `https://api.github.com/users/${username}`;
@@ -7,14 +8,12 @@ async function fetchData(username, repos = false) {
     url += "/repos";
   }
 
-  const res = await fetch(url);
-
-  if (!res.ok) {
-    throw new Error(`${res.status}: ${res.statusText}`);
+  try {
+    const res = await axios.get(url);
+    return res.data;
+  } catch (error) {
+    throw new Error(error.message);
   }
-
-  const data = await res.json();
-  return data;
 }
 
 async function getUserData(username) {
